@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_cost_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:hint="账单名称"
+        android:background="@drawable/bg_cost"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et_cost_money"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:hint="花费金额"
+        android:background="@drawable/bg_cost"
+        android:paddingLeft="10dp"/>
+
+    <DatePicker
+        android:id="@+id/dp_cost_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+</LinearLayout>
